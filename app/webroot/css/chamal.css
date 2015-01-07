@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07-ene-2015, 16:38:21
+    Author     : PC
+*/
+.contenidoPrimario{
+    width: 1025px;
+    height: 688px;
+    margin: 0 auto;
+    -webkit-border-radius: 3px;
+    -webkit-box-orient: vertical;
+    -webkit-transition: 200ms -webkit-transform;
+    box-shadow: 0 4px 23px 5px rgba(0, 0, 0, 0.2), 0 2px 6px rgba(0, 0, 0, 0.15);
+    color: #333;
+    display: -webkit-box;
+    padding: 0;
+    background-image: url('../img/chamal-fondo.png');
+    background-size: 1025px 688px;;
+}
+.contenidoPrimario .opciones{
+    position: absolute;
+    width: 1025px;
+    height: 100px;
+    margin-top: 280px;
+    /*background-color: red;*/
+}
+#opcion1{
+    width: 60px;
+    height: 20px;
+    margin-left: 66px;
+    margin-top: 40px;
+    /*background-color: green;*/
+    background-image: url(../img/evento-black.png);
+    background-position: 4px 0px;
+    background-repeat: no-repeat;
+    float: left;
+    cursor: pointer;
+}
+#opcion1:hover{
+    background-image: url(../img/evento-red.png);
+}
+#opcion2{
+    width: 90px;
+    height: 20px;
+    margin-left: 128px;
+    margin-top: 40px;
+    /*background-color: green;*/
+    background-image: url(../img/directorio-black.png);
+    background-position: 4px 0px;
+    background-repeat: no-repeat;
+    float: left;
+    cursor: pointer;
+}
+#opcion2:hover{
+    background-image: url(../img/directorio-red.png);
+}
+#opcion3{
+    width: 170px;
+    height: 50px;
+    margin-left: 86px;
+    margin-top: 22px;
+    /* background-color: green; */
+    background-image: url(../img/logo-black.png);
+    background-position: 4px 0px;
+    background-repeat: no-repeat;
+    float: left;
+    cursor: pointer;
+}
+#opcion3:hover{
+    background-image: url(../img/logo-red.png);
+}
+#opcion4{
+    width: 90px;
+    height: 20px;
+    margin-left: 105px;
+    margin-top: 40px;
+    /*background-color: green;*/
+    background-image: url(../img/foro-black.png);
+    background-position: 4px 0px;
+    background-repeat: no-repeat;
+    float: left;
+    cursor: pointer;
+}
+#opcion4:hover{
+    background-image: url(../img/foro-red.png);
+}
+#opcion5{
+    width: 90px;
+    height: 20px;
+    margin-left: 105px;
+    margin-top: 40px;
+    /*background-color: green;*/
+    background-image: url(../img/estilo-black.png);
+    background-position: 4px 0px;
+    background-repeat: no-repeat;
+    float: left;
+    cursor: pointer;
+}
+#opcion5:hover{
+    background-image: url(../img/estilo-red.png);
+}
