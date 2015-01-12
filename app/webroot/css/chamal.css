@@ -1,15 +1,10 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
     Created on : 07-ene-2015, 16:38:21
-    Author     : PC
+    Author     : Christopher Sebastian Lara Cariceo
 */
 .contenidoPrimario{
-    width: 1025px;
-    height: 688px;
+    width: 958px;
+    height: 678px;
     margin: 0 auto;
     -webkit-border-radius: 3px;
     -webkit-box-orient: vertical;
@@ -19,7 +14,7 @@ and open the template in the editor.
     display: -webkit-box;
     padding: 0;
     background-image: url('../img/chamal-fondo.png');
-    background-size: 1025px 688px;;
+    background-size: 958px 678px;
 }
 .contenidoPrimario .opciones{
     position: absolute;
@@ -46,7 +41,7 @@ and open the template in the editor.
 #opcion2{
     width: 90px;
     height: 20px;
-    margin-left: 128px;
+    margin-left: 107px;;
     margin-top: 40px;
     /*background-color: green;*/
     background-image: url(../img/directorio-black.png);
@@ -61,7 +56,7 @@ and open the template in the editor.
 #opcion3{
     width: 170px;
     height: 50px;
-    margin-left: 86px;
+    margin-left: 75px;
     margin-top: 22px;
     /* background-color: green; */
     background-image: url(../img/logo-black.png);
@@ -70,13 +65,10 @@ and open the template in the editor.
     float: left;
     cursor: pointer;
 }
-#opcion3:hover{
-    background-image: url(../img/logo-red.png);
-}
 #opcion4{
     width: 90px;
     height: 20px;
-    margin-left: 105px;
+    margin-left: 88px;
     margin-top: 40px;
     /*background-color: green;*/
     background-image: url(../img/foro-black.png);
@@ -91,7 +83,7 @@ and open the template in the editor.
 #opcion5{
     width: 90px;
     height: 20px;
-    margin-left: 105px;
+    margin-left: 94px;
     margin-top: 40px;
     /*background-color: green;*/
     background-image: url(../img/estilo-black.png);
@@ -102,4 +94,178 @@ and open the template in the editor.
 }
 #opcion5:hover{
     background-image: url(../img/estilo-red.png);
+}
+.none{
+    display: none;
+}
+.center{
+    text-align: center;
+}
+.pointer{
+    cursor: pointer;
+}
+#opcion6{
+    width: 958px;
+    height: 10px;
+    margin-top: 250px;
+    font-family: helvetica;
+    font-weight: bolder;
+    color: red;
+    float: left;
+}
+/* about */
+.contenidoPrimario .about{
+    width: 958px;
+    height: 678px;
+}
+.contenidoPrimario .contenedor-secciones .about-logo{
+    width: 958px;
+    height: 74px;
+    /*    background-color: red;*/
+}
+.contenidoPrimario .contenedor-secciones .about-logo .logo{
+    width: 196px;
+    height: 89px;
+    background-image: url('../img/logo-black.png');
+    background-repeat: no-repeat;
+    background-position: 41px 41px;
+    background-size: 105px 33px;
+}
+.contenidoPrimario .contenedor-secciones .about-logo .bienvenida {
+    margin: 0 auto;
+    width: 341px;
+    height: 462px;
+    margin-top: 47px;
+    background-color: rgba(255,255,255,0.7);
+}
+.contenidoPrimario .contenedor-secciones .about-logo .bienvenida .healt{
+    margin: 0 auto;
+    width: 300px;
+    height: 65px;
+    background-image: url('../img/healt.png');
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: 131px 12px;
+}
+.contenidoPrimario .contenedor-secciones .about-logo .bienvenida .texto{
+    margin: 0 auto;
+    width: 300px;
+    height: 360px;
+    margin-top: 10px;
+    /*    background-color: red;*/
+    font-size: 11.5px;
+    text-align: justify;
+    font-family: Helvetica;
+}
+.color-text{
+    color: #bf5e57;
+}
+.contenidoPrimario .contenedor-secciones .about-logo .volver{
+    width: 958px;
+    height: 20px;
+    margin-top: 17px;
+    /*    background-color: red;*/
+}
+.contenidoPrimario .contenedor-secciones .about-logo .volver .boton-volver{
+    width: 30px;
+    height: 20px;
+    margin-left: 45px;
+    background-image: url('../img/volver.png');
+    background-repeat: no-repeat;
+}
+/* Eventos */
+
+.contenidoPrimario .contenedor-secciones{
+    width: 958px;
+    height: 678px;
+    /*    background-color: red;*/
+}
+.contenidoPrimario .contenedor-secciones .about-logo .workshop{
+    width: 355px;
+    height: 495px;
+    margin-left: 387px;
+    background-image: url('../img/foto-evento.jpg');
+}
+.contenidoPrimario .contenedor-secciones .windows-calendar{
+    position: absolute;
+    width: 885px;
+    height: 163px;
+    margin-top: 196px;
+    margin-left: 40px;
+    border: dashed 2px black;
+}
+.contenidoPrimario .contenedor-secciones .calendario{
+    position: absolute;
+    width: 344px;
+    height: 287px;
+    margin-top: 72px;
+    margin-left: 40px;
+    /*    border: solid 2px black;*/
+}
+.left{
+    background-image: url('../img/boton-calendario-iz.png');
+    background-repeat: no-repeat;
+}
+.right{
+    background-image: url('../img/boton-calendario-der.png');
+    background-repeat: no-repeat;
+}
+.contenidoPrimario .contenedor-secciones .calendario .titulo-eventos{
+    margin: 0 auto;
+    width: 74px;
+    height: 17px;
+    margin-top: 10px;
+    background-image: url('../img/titulo-eventos.png');
+    /*    background-color: red;*/
+}
+.contenidoPrimario .contenedor-secciones .calendario .botones-calendario{
+    margin: 0 auto;
+    width: 142px;
+    height: 10px;
+    margin-top: 10px;
+    /*    background-color: red;*/
+}
+.contenidoPrimario .contenedor-secciones .calendario .botones-calendario .botton{
+    width: 8px;
+    height: 10px;
+    float: left;
+}
+.contenidoPrimario .contenedor-secciones .calendario .botones-calendario .texto-calendario{
+    width: 126px;
+    height: 10px;
+    float: left;
+    text-align: center;
+}
+.contenidoPrimario .contenedor-secciones .calendario .botones-calendario .texto-calendario p{
+    margin-top: -3px;
+    color: #b21f23;
+    font-weight: bolder;
+    font-family: Helvetica;
+}
+.contenidoPrimario .contenedor-secciones .inscribete{
+    position: absolute;
+    width: 87px;
+    height: 85px;
+    margin-left: 830px;
+    background-image: url('../img/inscribete.png');
+    /*    background-color: red;*/
+}
+.contenidoPrimario .contenedor-secciones .info-calendario{
+    position: absolute;
+    width: 178px;
+    height: 160px;
+    margin-left: 748px;
+    margin-top: 200px;
+    /* background-color: red; */
+}
+.contenidoPrimario .contenedor-secciones .info-calendario .titulo-fecha-evento{
+    width: 173px;
+    height: 20px;
+    /*    background-color: red;*/
+}
+.contenidoPrimario .contenedor-secciones .info-calendario .titulo-fecha-evento p{
+    font-family: Helvetica;
+    color: #b21f23;
+    font-size: 10.5px;
+    text-align: justify;
 }
