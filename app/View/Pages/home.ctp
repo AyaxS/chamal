@@ -52,7 +52,7 @@
                 </div>
             </div>
         </div>
-        <div class="inscribete pointer">
+        <div id="inscribete" class="inscribete pointer">
 
         </div>
         <div class="info-calendario">
@@ -128,6 +128,51 @@
                         de las cosas.
 
                     </p>
+                </div>
+            </div>
+            <div class="volver">
+                <div id="volver" class="boton-volver pointer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Mi look -->
+    <div id="pagina7" class="contenedor-secciones none">
+        <div id="pop-up" class="pop-up">
+            <div class="contenido-popup pointer">
+            </div>
+        </div>
+        <div class="about-logo">
+            <div class="logo">
+            </div>
+            <div class="formulario">
+                <div class="titulo-mi-look">
+                    
+                </div>
+                <div class="contenedor-input">
+                    <input type="text" name="texto1">
+                </div>
+                <div class="contenedor-input">
+                    <input type="text" name="texto2">
+                </div>
+                <div class="contenedor-input">
+                    <input type="text" name="texto3">
+                </div>
+                <div class="contenedor-area">
+                    <textarea rows="3" name="text-area1"></textarea>
+                </div>
+                <div class="contenedor-area">
+                    <textarea rows="3" name="text-area2"></textarea>
+                </div>
+                <div class="contenedor-input">
+                    <input type="text" name="texto4">
+                </div>
+                <div class="contenedor-input">
+                    <input type="text" name="texto5">
+                </div>
+                <div class="boton-enviar pointer">
+                    
                 </div>
             </div>
             <div class="volver">
