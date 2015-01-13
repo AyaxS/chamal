@@ -2,6 +2,22 @@
     Created on : 07-ene-2015, 16:38:21
     Author     : Christopher Sebastian Lara Cariceo
 */
+@font-face {
+    font-family: 'Medium.otf';
+    src: url('../fonts/DINNextLTPro Medium.otf') format('truetype');
+}
+@font-face {
+    font-family: 'MediumItalic.otf';
+    src: url('../fonts/DINNextLTPro MediumItalic.otf') format('truetype');
+}
+@font-face {
+    font-family: 'TheMix-3-LightIta.otf';
+    src: url('../fonts/TheMix-3-LightIta.otf') format('truetype');
+}
+@font-face {
+    font-family: 'TheMix-6-SemiBold.otf';
+    src: url('../fonts/TheMix-6-SemiBold.otf') format('truetype');
+}
 .contenidoPrimario{
     width: 958px;
     height: 678px;
@@ -278,14 +294,23 @@
     padding-bottom: 40px;
 }
 .contenidoPrimario .contenedor-secciones .about-logo .formulario .contenedor-input input{
-    width: 309px;
+    width: 304px;
     height: 26px;
     border: dashed 1px #dc634e;
+    padding-left: 5px;
+    font-family: "Medium.otf";
+    font-size: 12px;
+}
+.contenidoPrimario .contenedor-secciones .about-logo .formulario .contenedor-input input img{
+    position: absolute;
 }
 .contenidoPrimario .contenedor-secciones .about-logo .formulario .contenedor-area textarea{
-    width: 305px;
+    width: 301px;
     height: 54px;
     border: dashed 1px #dc634e;
+    padding-left: 5px;
+    font-family: "Medium.otf";
+    font-size: 12px;
 }
 .contenidoPrimario .contenedor-secciones .about-logo .titulo-mi-look{
     margin: 0 auto;

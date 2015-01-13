@@ -151,25 +151,26 @@
                     
                 </div>
                 <div class="contenedor-input">
-                    <input type="text" name="texto1">
+                    <input type="text" name="texto1" placeholder="NOMBRE">
                 </div>
                 <div class="contenedor-input">
-                    <input type="text" name="texto2">
+                    <input type="text" name="texto2" placeholder="EDAD">
                 </div>
                 <div class="contenedor-input">
-                    <input type="text" name="texto3">
+                    <input type="text" name="texto3" placeholder="OCUPACIÓN">
                 </div>
                 <div class="contenedor-area">
-                    <textarea rows="3" name="text-area1"></textarea>
+                    <textarea rows="3" name="text-area1" placeholder="QUÉ LLEVO PUESTO  máx 90 caracteres"></textarea>
                 </div>
                 <div class="contenedor-area">
-                    <textarea rows="3" name="text-area2"></textarea>
+                    <textarea rows="3" name="text-area2" placeholder="DÓNDE/CÓMO LO CONSEGUÍ si conoces el contacto compártelo con nosotras. Màx 90 caracteres"></textarea>
                 </div>
                 <div class="contenedor-input">
-                    <input type="text" name="texto4">
+                    <input type="text" name="texto4" placeholder="E-MAIL es privado, no aparecerá publicamente">
                 </div>
                 <div class="contenedor-input">
-                    <input type="text" name="texto5">
+                    <img src="app/webroot/img/camara.jpg">
+                    <input type="text" name="texto4" placeholder="">
                 </div>
                 <div class="boton-enviar pointer">
                     
