@@ -3,6 +3,10 @@
     Author     : Christopher Sebastian Lara Cariceo
 */
 @font-face {
+    font-family: 'Light.otf';
+    src: url('../fonts/DINNextLTPro Light.otf') format('truetype');
+}
+@font-face {
     font-family: 'Medium.otf';
     src: url('../fonts/DINNextLTPro Medium.otf') format('truetype');
 }
@@ -122,12 +126,20 @@
 }
 #opcion6{
     width: 958px;
-    height: 10px;
+    height: 15px;
     margin-top: 250px;
     font-family: helvetica;
     font-weight: bolder;
     color: red;
     float: left;
+}
+#opcion6 .boton-about{
+    margin: 0 auto;
+    width: 43px;
+    height: 15px;
+    background-image: url('../img/about.jpg');
+    background-size: 42px 13px;
+    background-repeat: no-repeat;
 }
 /* about */
 .contenidoPrimario .about{
@@ -146,6 +158,13 @@
     background-repeat: no-repeat;
     background-position: 41px 41px;
     background-size: 105px 33px;
+}
+.contenidoPrimario .contenedor-secciones .about-logo .foto-bienvenida {
+    margin: 0 auto;
+    width: 341px;
+    height: 462px;
+    margin-top: 47px;
+    background-image: url('../img/texto-about.png');
 }
 .contenidoPrimario .contenedor-secciones .about-logo .bienvenida {
     margin: 0 auto;
@@ -169,9 +188,13 @@
     height: 360px;
     margin-top: 10px;
     /*    background-color: red;*/
-    font-size: 11.5px;
+    font-size: 11px;
     text-align: justify;
-    font-family: Helvetica;
+    font-family: "Light.otf";
+    line-height: 14px;
+}
+.formato-biemvenida-titulo{
+    font-family: "Medium.otf";
 }
 .color-text{
     color: #bf5e57;
@@ -210,6 +233,13 @@
     margin-left: 40px;
     border: dashed 2px black;
 }
+.contenidoPrimario .contenedor-secciones .windows-calendar .contenedor-calendario{
+    width: 281px;
+    height: 131px;
+    margin-top: 11px;
+    margin-left: 20px;
+    background-image: url('../img/calendarios/calendario1.png');
+}
 .contenidoPrimario .contenedor-secciones .calendario{
     position: absolute;
     width: 344px;
@@ -236,7 +266,7 @@
 }
 .contenidoPrimario .contenedor-secciones .calendario .botones-calendario{
     margin: 0 auto;
-    width: 142px;
+    width: 104px;
     height: 10px;
     margin-top: 10px;
     /*    background-color: red;*/
@@ -247,10 +277,11 @@
     float: left;
 }
 .contenidoPrimario .contenedor-secciones .calendario .botones-calendario .texto-calendario{
-    width: 126px;
-    height: 10px;
+    width: 88px;
+    height: 11px;
     float: left;
     text-align: center;
+    /*    background-color: red;*/
 }
 .contenidoPrimario .contenedor-secciones .calendario .botones-calendario .texto-calendario p{
     margin-top: -3px;
@@ -258,13 +289,52 @@
     font-weight: bolder;
     font-family: Helvetica;
 }
+#fecha1{
+    background-image: url('../img/meses/enero.png');
+}
+#fecha2{
+    background-image: url('../img/meses/febrero.png');
+}
+#fecha3{
+    background-image: url('../img/meses/marzo.png');
+}
+#fecha4{
+    background-image: url('../img/meses/abril.png');
+}
+#fecha5{
+    background-image: url('../img/meses/mayo.png');
+}
+#fecha6{
+    background-image: url('../img/meses/junio.png');
+}
+#fecha7{
+    background-image: url('../img/meses/julio.png');
+}
+#fecha8{
+    background-image: url('../img/meses/agosto.png');
+}
+#fecha9{
+    background-image: url('../img/meses/septiembre.png');
+}
+#fecha10{
+    background-image: url('../img/meses/octubre.png');
+}
+#fecha11{
+    background-image: url('../img/meses/noviembre.png');
+}
+#fecha12{
+    background-image: url('../img/meses/diciembre.png');
+}
 .contenidoPrimario .contenedor-secciones .inscribete{
     position: absolute;
     width: 87px;
     height: 85px;
     margin-left: 830px;
-    background-image: url('../img/inscribete.png');
+    background-image: url('../img/inscribete2.png');
     /*    background-color: red;*/
+}
+.contenidoPrimario .contenedor-secciones .inscribete:hover{
+    background-image: url('../img/inscribete1.png');
 }
 .contenidoPrimario .contenedor-secciones .info-calendario{
     position: absolute;
@@ -278,6 +348,13 @@
     width: 173px;
     height: 20px;
     /*    background-color: red;*/
+}
+.contenidoPrimario .contenedor-secciones .info-calendario .info-textos{
+    width: 178px;
+    height: 134px;
+    margin-top: 12px;
+    margin-left: -3px;
+    background-image: url('../img/texto-calendario/texto1.png');
 }
 .contenidoPrimario .contenedor-secciones .info-calendario .titulo-fecha-evento p{
     font-family: Helvetica;
@@ -334,6 +411,14 @@
     background-position: 1px 1px;
     background-image: url('../img/recovered.png');
     background-repeat: no-repeat;
+}
+.contenidoPrimario .contenedor-secciones .pop-up .contenido-popup .criterio-boton{
+    position: absolute;
+    width: 125px;
+    height: 12px;
+    margin-top: 182px;
+    margin-left: 140px;
+    cursor: pointer;
 }
 .contenedor-input{
     width: 311px;

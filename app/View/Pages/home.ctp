@@ -17,7 +17,9 @@
 
         </div>
         <div id="opcion6" class="center pointer">
-            <a>ABOUT</a>            
+            <div class="boton-about">
+                
+            </div>          
         </div>
     </div>
     <!-- Eventos -->
@@ -28,25 +30,63 @@
             <div class="workshop">
             </div>
             <div class="volver">
-                <div id="volver" class="boton-volver pointer">
+                <div id="volver-eventos" class="boton-volver pointer">
 
                 </div>
             </div>
         </div>
         <div class="windows-calendar">
-
+            <div class="contenedor-calendario">
+                
+            </div>
         </div>
         <div class="calendario">
             <div class="titulo-eventos">
-
+                
             </div>
             <div class="botones-calendario">
                 <div class="botton left pointer">
 
                 </div>
-                <div class="texto-calendario">
-                    <p>/ENERO</p>
+                <div id="fecha1" class="texto-calendario ">
+                    
                 </div>
+                <div id="fecha2" class="texto-calendario none">
+                    
+                </div>
+                <div id="fecha3" class="texto-calendario none">
+                    
+                </div>
+                <div id="fecha4" class="texto-calendario none">
+                    
+                </div>
+                <div id="fecha5" class="texto-calendario none">
+                    
+                </div>
+                <div id="fecha6" class="texto-calendario none">
+                    
+                </div>
+                <div id="fecha7" class="texto-calendario none">
+                    
+                </div>
+                <div id="fecha8" class="texto-calendario none">
+                    
+                </div>
+                <div id="fecha9" class="texto-calendario none">
+                    
+                </div>
+                <div id="fecha10" class="texto-calendario none">
+                    
+                </div>
+                <div id="fecha11" class="texto-calendario none">
+                    
+                </div>
+                <div id="fecha12" class="texto-calendario none">
+                    
+                </div>
+<!--                <div class="texto-calendario">
+                    <p>/ENERO</p>
+                </div>-->
                 <div class="botton right pointer">
 
                 </div>
@@ -56,7 +96,10 @@
 
         </div>
         <div class="info-calendario">
-            <div class="titulo-fecha-evento">
+            <div class="info-textos">
+                
+            </div>
+<!--            <div class="titulo-fecha-evento">
                 <p>
                     <strong>GOETHE-INSTITUT CHILE</strong><br/>
                     <em>Holanda 100, providencia.</em>
@@ -73,7 +116,7 @@
                              +56985565795
                 </p>
 
-            </div>
+            </div>-->
         </div>
     </div>
     <!-- Directorio -->
@@ -98,7 +141,10 @@
             <div class="logo">
             </div>
             <div class="bienvenida">
-                <div class="healt">
+                <div class="foto-bienvenida">
+                    
+                </div>
+<!--                <div class="healt">
 
                 </div>
                 <div class="texto">
@@ -108,12 +154,12 @@
                         valoración del trabajo artesanal y la integración de criterios de
                         diseño sustentable a nuestra forma de usar y consumir ropa.
                     </p>
-                    <p class="color-text"><strong>Criterios de diseño sustentable</strong></p>
+                    <p class="color-text formato-biemvenida-titulo"><strong>Criterios de diseño sustentable</strong></p>
                     <p class="color-text"><strong>1.Reutilizacion de material:</strong> la reutilización y re significaión de
-                        recursos textiles para generar nuvas piezas de vestuario.<br/><br/>
+                        recursos textiles para generar nuvas piezas de vestuario.<br/>
                         <strong>2.Transformación de material:</strong> incentivados a aprovechar
                         materiales mal aprovechados o en desusos para generar piezas 
-                        textiles innovadoras y duraderas.<br/><br/>
+                        textiles innovadoras y duraderas.<br/>
                         <strong>3.Diseño eficaz:</strong> apoyamos la producción cualitativa y el trabajo 
                         personalizado y creativo que hay detrás. Queremos evitar el fomento 
                         a la producción masiva y la absolencia a sus productos.
@@ -128,10 +174,10 @@
                         de las cosas.
 
                     </p>
-                </div>
+                </div>-->
             </div>
             <div class="volver">
-                <div id="volver" class="boton-volver pointer">
+                <div id="volver-about" class="boton-volver pointer">
 
                 </div>
             </div>
@@ -139,8 +185,11 @@
     </div>
     <!-- Mi look -->
     <div id="pagina7" class="contenedor-secciones none">
-        <div id="pop-up" class="pop-up">
-            <div class="contenido-popup pointer">
+        <div id="pop-up" class="pop-up pointer">
+            <div class="contenido-popup">
+                <div id="boton-criterios" class="criterio-boton">
+                    
+                </div>
             </div>
         </div>
         <div class="about-logo">
@@ -169,7 +218,6 @@
                     <input type="text" name="texto4" placeholder="E-MAIL es privado, no aparecerá publicamente">
                 </div>
                 <div class="contenedor-input">
-                    <img src="app/webroot/img/camara.jpg">
                     <input type="text" name="texto4" placeholder="">
                 </div>
                 <div class="boton-enviar pointer">
@@ -177,7 +225,7 @@
                 </div>
             </div>
             <div class="volver">
-                <div id="volver" class="boton-volver pointer">
+                <div id="volver-mi-look" class="boton-volver pointer">
 
                 </div>
             </div>
